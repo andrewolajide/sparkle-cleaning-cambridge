@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Web design, Graphic design, Web developer" />
+    <meta
+      name="description"
+      content="Frontend web developer and graphic designer creating responsive and modern websites"
+    />
+
+    <!-- Facebook Meta Tags
+    <meta property="og:url" content="https://andrewolajide.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Andrew Olajide Portfolio" />
+    <meta
+      property="og:description"
+      content="Frontend web developer and graphic designer creating responsive and modern websites."
+    />
+    <meta
+      property="og:image"
+      content="https://andrewolajide.vercel.app/images/share-preview.jpeg"
+    />
+
+    Twitter Meta Tags
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="andrewolajide.vercel.app" />
+    <meta property="twitter:url" content="https://andrewolajide.vercel.app/" />
+    <meta name="twitter:title" content="Andrew Olajide Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Frontend web developer and graphic designer creating responsive and modern websites."
+    />
+    <meta
+      name="twitter:image"
+      content="https://andrewolajide.vercel.app/images/share-preview.jpeg"
+    /> -->
+
+    <title>Sparkles Cleaning Cambridge</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/logos/favicon.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    /></noscript>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-bar-row">
+          <div class="nav-left">
+            <a href="index.html" class="nav-logo-link">
+              <img src="images/logos/website-logo2.jpg" alt="Logo" />
+              <div class="nav-title">
+                <p class="title-main">Sparkles</p>
+                <p class="title-sub">Cleaning Cambridge</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="nav-center">
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#projects">Gallery</a>
+            <a href="#contact">Reviews</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="nav-right">
+            <a href="" class="btn nav-btn"><span>Book Now</span></a>
+          </div>
+
+          <button class="hamburger" aria-expanded="false" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menu-overlay"></div>
+
+    <aside class="mobile-menu">
+      <button class="close-menu" onclick="closeMenu()">&times;</button>
+
+      <ul>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#projects">Gallery</a></li>
+        <li><a href="#contact">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="" class="btn nav-btn"><span>Book Now</span></a>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <img
+        src="images/hero/hero-background.jpg"
+        alt="Home Space"
+        class="hero-background"
+      />
+      <div class="hero-content">
+        <p class="hero-badge">
+          <i class="ri-circle-fill"></i>PREMIUM CLEANING SERVICE
+        </p>
+        <h1>The Art of <span>Immaculate</span> Spaces</h1>
+        <p>
+          We believe a clean space is a canvas for life's finest moments.
+          Experience cleaning elevated to an art form, where every detail
+          matters.
+        </p>
+        <!-- Row start -->
+        <div class="btn-row">
+          <a href="" class="btn colored-btn"
+            >Get a Free Quote<i class="ri-arrow-right-up-line"></i
+          ></a>
+          <a href="" class="btn hero-btn2"
+            >View All Services<i class="ri-arrow-right-line"></i
+          ></a>
+        </div>
+        <!-- Row end -->
+
+        <span class="line"></span>
+        <div class="trust-marquee-wrapper">
+          <div class="trust-row">
+            <!-- ORIGINAL SET -->
+            <div class="trust-stat">
+              <p class="trust-figure">50<span>+</span></p>
+              <p class="trust-desc">Happy Clients</p>
+            </div>
+            <span class="divider"></span>
+            <div class="trust-stat">
+              <p class="trust-figure">98<span>%</span></p>
+              <p class="trust-desc">Satisfaction</p>
+            </div>
+            <span class="divider"></span>
+            <div class="trust-stat">
+              <p class="trust-figure">3<span>+</span></p>
+              <p class="trust-desc">Years</p>
+            </div>
+            <span class="divider"></span>
+            <div class="trust-stat">
+              <div class="trust-stars">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+              <p class="trust-desc">4.9 . Google</p>
+            </div>
+            <span class="divider"></span>
+
+            <!-- DUPLICATED SET (For seamless looping) -->
+            <div class="trust-stat" aria-hidden="true">
+              <p class="trust-figure">50<span>+</span></p>
+              <p class="trust-desc">Happy Clients</p>
+            </div>
+            <span class="divider" aria-hidden="true"></span>
+            <div class="trust-stat" aria-hidden="true">
+              <p class="trust-figure">98<span>%</span></p>
+              <p class="trust-desc">Satisfaction</p>
+            </div>
+            <span class="divider" aria-hidden="true"></span>
+            <div class="trust-stat" aria-hidden="true">
+              <p class="trust-figure">3<span>+</span></p>
+              <p class="trust-desc">Years</p>
+            </div>
+            <span class="divider" aria-hidden="true"></span>
+            <div class="trust-stat" aria-hidden="true">
+              <div class="trust-stars">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+              <p class="trust-desc">4.9 . Google</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="services-left">
+        <p class="intro">OUR SERVICES</p>
+        <h2>Tailored to <span>Perfection</span></h2>
+        <span class="service-span"></span>
+        <p>
+          Every space tells a story. Our comprehensive service ensure yours
+          speak of elegance, care, and meticulous attention to detail.
+        </p>
+        <a href="services.html"
+          >Explore all services<i class="ri-arrow-right-line"></i
+        ></a>
+      </div>
+      <!-- Grid start -->
+      <div class="services-grid">
+        <div class="card service-box">
+          <img
+            src="images/services/residential.jpg"
+            alt="Residential cleaning image"
+          />
+          <div class="card-text">
+            <div class="card-head">
+              <h3>Residential Cleaning</h3>
+              <i class="ri-arrow-right-up-line"></i>
+            </div>
+            <p>
+              Transform your home into a pristine sanctuary with our meticulous
+              residential cleaning service.
+            </p>
+          </div>
+        </div>
+        <div class="card service-box">
+          <img src="images/services/office.jpg" alt="Office cleaning image" />
+          <div class="card-text">
+            <div class="card-head">
+              <h3>Office Cleaning</h3>
+              <i class="ri-arrow-right-up-line"></i>
+            </div>
+            <p>
+              Create an inspiring workspace that boosts productivity with our
+              professional office cleaning.
+            </p>
+          </div>
+        </div>
+        <div class="card service-box">
+          <img
+            src="images/services/post-construction.jpg"
+            alt="Post construction cleaning image"
+          />
+          <div class="card-text">
+            <div class="card-head">
+              <h3>Post Construction</h3>
+              <i class="ri-arrow-right-up-line"></i>
+            </div>
+            <p>
+              Reveal the true beauty of your newly built or renovated space with
+              thorough post-construction cleaning.
+            </p>
+          </div>
+        </div>
+        <div class="card service-box">
+          <img src="images/services/move-in.jpg" alt="Move in cleaning image" />
+          <div class="card-text">
+            <div class="card-head">
+              <h3>Move in Cleaning</h3>
+              <i class="ri-arrow-right-up-line"></i>
+            </div>
+            <p>
+              Begin your new chapter in a spotlessly clean home with our
+              comprehensive move-in service.
+            </p>
+          </div>
+        </div>
+        <div class="card service-box">
+          <img
+            src="images/services/after-party.png"
+            alt="After party cleaning image"
+          />
+          <div class="card-text">
+            <div class="card-head">
+              <h3>After Party Cleaning</h3>
+              <i class="ri-arrow-right-up-line"></i>
+            </div>
+            <p>
+              Wake up to perfectly restored space after your celebration with
+              our swift cleanup service.
+            </p>
+          </div>
+        </div>
+        <div class="card service-box">
+          <img
+            src="images/services/laundry-services.jpg"
+            alt="Laundry service image"
+          />
+          <div class="card-text">
+            <div class="card-head">
+              <h3>Laundry Services</h3>
+              <i class="ri-arrow-right-up-line"></i>
+            </div>
+            <p>
+              Experience the luxury of professionally cleaned and perfectly
+              pressed garments and linens.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Grid end -->
+    </section>
+
+    <section class="how-it-works">
+      <p class="intro">HOW IT WORKS</p>
+      <h2>Simple. <span>Seamless</span>. Spotless</h2>
+      <!-- Process row start -->
+      <div class="process-row">
+        <div class="process-box">
+          <p class="process-number">01</p>
+          <i class="ri-calendar-check-line"></i>
+          <h4>Book Online</h4>
+          <p class="processs-desc">
+            Select your service and preferred time through our easy booking
+            system
+          </p>
+        </div>
+        <div class="process-box">
+          <p class="process-number">02</p>
+          <i class="ri-check-double-line"></i>
+          <h4>We Confirm</h4>
+          <p class="processs-desc">
+            Receive confirmation after review from our team and meet your
+            dedicated cleaning professional
+          </p>
+        </div>
+        <div class="process-box">
+          <p class="process-number">03</p>
+          <i class="ri-brush-2-line"></i>
+          <h4>We Clean</h4>
+          <p class="processs-desc">
+            Our experts transform your space with meticulous attention to detail
+          </p>
+        </div>
+        <div class="process-box">
+          <p class="process-number">04</p>
+          <i class="ri-home-heart-line"></i>
+          <h4>You Enjoy</h4>
+          <p class="processs-desc">
+            Relax in your pristine, refreshed space and enjoy the difference
+          </p>
+        </div>
+      </div>
+      <!-- Process row end -->
+    </section>
+
+    <section class="our-work">
+      <p class="intro">OUR WORK</p>
+      <div class="our-work-head">
+        <h2>See the <em>Transformation</em></h2>
+        <a href="gallery.html" class="btn colored-btn"
+          >View Full Gallery<i class="ri-arrow-right-line"></i
+        ></a>
+      </div>
+      <!-- Work-grid start-->
+      <div class="work-grid">
+        <div class="work-box">
+          <img src="images/gallery/before1.png" alt="" />
+          <p class="work-badge">Before</p>
+        </div>
+        <div class="work-box">
+          <img src="images/gallery/after1.jpg" alt="" />
+          <p class="work-badge">After</p>
+        </div>
+        <div class="work-box">
+          <img src="images/gallery/before2.png" alt="" />
+          <p class="work-badge">Before</p>
+        </div>
+        <div class="work-box">
+          <img src="images/gallery/after2.jpg" alt="" />
+          <p class="work-badge">After</p>
+        </div>
+      </div>
+      <!-- Work-grid end -->
+    </section>
+
+    <section class="testimonials">
+      <div class="testimonial-left">
+        <img src="images/testimonial/testimonial.jpg" alt="" />
+        <div class="test-stat-box">
+          <div class="test-stat">
+            <p class="test-number">5+</p>
+            <p class="test-desc">Years</p>
+          </div>
+          <div class="test-stat">
+            <p class="test-number">24/7</p>
+            <p class="test-desc">Support</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-right">
+        <p class="intro">TESTIMONIALS</p>
+        <h2>Words from <em>Our Clients</em></h2>
+        <!-- Testimonial row start -->
+        <div class="testimonial-row">
+          <div class="testimonial-box">
+            <p class="testimony">
+              <span class="large-quotes">"</span>As someone who values
+              excellence in every aspect of life, finding Jayoni was a
+              revelation. Their team treats my space with the same care I would.
+              Absolutely impeccable service.
+            </p>
+            <div class="testimonial-head">
+              <img
+                src="images/testimonial/ibrahim-yusuf.png"
+                alt="Profile Picture"
+              />
+              <div class="testimonial-head-text">
+                <p><span>Michael Chen</span></p>
+                <p class="position">CEO Meridian Ventures</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-box">
+            <p class="testimony">
+              <span class="large-quotes">"</span>After our renovation, I was
+              dreading the cleanup. Jayoni made our dream home a reality in just
+              one day. The transformation was nothing short of miraculous.
+            </p>
+            <div class="testimonial-head">
+              <img
+                src="images/testimonial/funmilayo-adeleke.png"
+                alt="Profile Picture"
+              />
+              <div class="testimonial-head-text">
+                <p><span>Emily Rodriguez</span></p>
+                <p class="position">Architect</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-box">
+            <p class="testimony">
+              <span class="large-quotes">"</span>Jayoni has completely
+              transformed how I experience my home. Their attention to detail is
+              extraordinary — every surface gleams, every corner is perfect. It
+              is not just cleaning, it is an art form.
+            </p>
+            <div class="testimonial-head">
+              <img
+                src="images/testimonial/aisha-mohammed.png"
+                alt="Profile Picture"
+              />
+              <div class="testimonial-head-text">
+                <p><span>Sarah Mitchell</span></p>
+                <p class="position">Interior Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial row end -->
+        <div class="indicator-container" id="testimonial-indicator"></div>
+        <div class="testBtn-row">
+          <i class="ri-arrow-left-line test-prev"></i>
+          <i class="ri-arrow-right-line test-next"></i>
+        </div>
+        <a href="reviews.html"
+          >Read all reviews<i class="ri-arrow-right-line"></i
+        ></a>
+      </div>
+    </section>
+
+    <section class="faqs">
+      <p class="intro">FAQ</p>
+      <h2>Questions <em>Answered</em></h2>
+
+      <div class="questions-row">
+        <details class="reveal reveal-up">
+          <summary>How do I schedule a cleaning service?</summary>
+          <p>
+            Booking is effortless. Use our online booking form, call us
+            directly, or speak with our AI assistant. Simply select your
+            service, preferred date and time, and we handle everything else.
+          </p>
+        </details>
+        <details class="reveal reveal-up">
+          <summary>What areas do you serve?</summary>
+          <p>
+            We proudly serve the entire metropolitan area and surrounding
+            suburbs within a 30-mile radius. Contact us to confirm service
+            availability in your specific location.
+          </p>
+        </details>
+        <details class="reveal reveal-up">
+          <summary>Do you provide cleaning supplies?</summary>
+          <p>
+            Yes, we bring all necessary professional-grade, eco-friendly
+            cleaning supplies and equipment. If you prefer specific products, we
+            are happy to accommodate your preferences.
+          </p>
+        </details>
+        <details class="reveal reveal-up">
+          <summary>Are your cleaners insured and vetted?</summary>
+
+          <p>
+            Absolutely. All team members undergo thorough background checks and
+            are fully insured and bonded. Your safety and peace of mind are our
+            top priorities.
+          </p>
+        </details>
+        <details class="reveal reveal-up">
+          <summary>What is your cancellation policy?</summary>
+          <p>
+            We require 24 hours notice for cancellations or rescheduling. This
+            allows us to offer the slot to other clients and maintain efficient
+            scheduling for our team.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <section class="page-close">
+      <p class="pageCloseBadge">
+        <i class="ri-gift-line"></i>First-Time Client Offer
+      </p>
+      <h2>Experience the <em>Jayoni</em> Difference</h2>
+      <p>
+        Book your first service today and receive 15% off. Discover why hundreds
+        of discerning clients trust us with their spaces.
+      </p>
+      <a href="" class="btn colored-btn"
+        >Book Your Service<i class="ri-arrow-right-up-line"></i
+      ></a>
+    </section>
+
+    <footer>
+      <div class="footer-column">
+        <div class="column1">
+          <div class="column1-head">
+            <img src="images/logos/website-logo2.jpg" alt="Logo" />
+            <div class="footer-title">
+              <h3>Sparkles</h3>
+              <p class="footer-sub">Cleaning Cambridge</p>
+            </div>
+          </div>
+          <p>
+            Premium cleanimg services for those who appreciate excellence in
+            every detail.
+          </p>
+          <div class="social-icons">
+            <a href=""><i class="ri-instagram-line"></i></a>
+            <a href=""><i class="ri-linkedin-fill"></i> </a>
+            <a href=""><i class="ri-youtube-line"></i></a>
+            <a href=""><i class="ri-facebook-fill"></i></a>
+          </div>
+        </div>
+        <div class="column2">
+          <h4>PAGES</h4>
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Gallery</a>
+          <a href="#">Reviews</a>
+          <a href="#">Contact</a>
+          <a href="#">Book Now</a>
+        </div>
+        <div class="column3">
+          <h4>SERVICES</h4>
+          <a href="#">Residential Cleaning</a>
+          <a href="#">Office Cleaning</a>
+          <a href="#">Post Construction</a>
+          <a href="#">Move in Cleaning</a>
+          <a href="#">After Party Cleaning</a>
+          <a href="#">Laundry Services</a>
+        </div>
+        <div class="column4">
+          <h4>CONTACT</h4>
+          <a href="mailto:andrewolajideofficial@gmail.com"
+            ><i class="ri-mail-line"></i>
+            jayoni@gmail.com
+          </a>
+          <a href="tel:+234 706 226 9761"
+            ><i class="ri-phone-line"></i>+234 706 226 9761</a
+          >
+          <p><i class="ri-time-line"></i>Mon - Sat: 8AM - 6PM</p>
+        </div>
+      </div>
+      <div class="footer-copy"></div>
+    </footer>
+
+    <!-- WHATSAPP AND SCROLL TO TOP BUTTONS -->
+    <div class="fixed-actions">
+      <button id="scrollTopBtn" class="action-btn">
+        <i class="ri-arrow-up-line"></i>
+      </button>
+
+      <a
+        href="https://wa.me/2347062269761"
+        target="_blank"
+        class="action-btn whatsapp-btn"
+      >
+        <i class="ri-whatsapp-line"></i>
+        <span class="tooltip">Chat with us</span>
+      </a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
